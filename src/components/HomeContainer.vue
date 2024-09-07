@@ -122,7 +122,7 @@ function changeItem(x) {
     position: relative;
     justify-content: space-between;
     padding: 208px 137px 0 137px;
-    background-color: lightgray;
+    background-color: lightgreen;
   }
   #person_container {
     width: 437px;
