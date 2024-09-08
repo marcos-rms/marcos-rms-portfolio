@@ -1,9 +1,9 @@
 <script setup>
 function changeItem(x) {  
   for (let i = 1; i < 6; i++) {
-    document.getElementById("item" + i).attributes.getNamedItem("class").value = "diamond";
+    document.getElementById("item" + i).setAttribute("class", "diamond");
   }
-  document.getElementById("item" + x).attributes.getNamedItem("class").value = "square";
+  document.getElementById("item" + x).setAttribute("class", "square");
 }
 </script>
 
