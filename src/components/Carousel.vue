@@ -30,20 +30,16 @@ function changeItem(x) {
 </template>
 
 <style scoped>
-  
   ul {
     list-style-type: none;
-    /* bottom: 55px;
-    right: 95.6px;
-    margin: auto; */
   }
   #item1 {
     position: fixed;
-    bottom: 163px;
+    bottom: 158px;
   }
   #item2 {
     position: fixed;
-    bottom: 136px;
+    bottom: 131px;
   }
   #item3 {
     position: fixed;
@@ -72,6 +68,7 @@ function changeItem(x) {
     right: 92.7px;
     border: 2px solid black;
     background-color: transparent;
+    transform: translatey(3px);
   }
   button {
     cursor: pointer;
